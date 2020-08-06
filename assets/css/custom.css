@@ -1,0 +1,19 @@
+html {
+    transition: 100ms;
+}
+
+.dark-theme{
+    filter: invert(1) hue-rotate(180deg);
+}
+
+
+.dark-theme-image{
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.theme-toggler{
+    margin:20px;
+    background:#b7b7b7;
+    color:white;
+}
+
