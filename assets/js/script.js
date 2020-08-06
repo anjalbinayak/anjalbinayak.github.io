@@ -42,8 +42,9 @@ function activateDarkTheme()
         img.classList.add('dark-theme-image');
     });
 
-    toggler.classList.add('fa-toggle-on');
-    toggler.classList.remove('fa-toggle-off');
+    toggler.classList.add('fa-sun-o');
+    toggler.classList.remove('fa-moon-o');
+    
     toggler.setAttribute('title','Enable Light Mode');
    
 
@@ -60,8 +61,8 @@ function activateLightTheme(){
         img.classList.remove('dark-theme-image');
     });
 
-    toggler.classList.remove('fa-toggle-on');
-    toggler.classList.add('fa-toggle-off');
+    toggler.classList.remove('fa-sun-o');
+    toggler.classList.add('fa-moon-o');
 
     toggler.setAttribute('title','Enable Dark Mode');
 
