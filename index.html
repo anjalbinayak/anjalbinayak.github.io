@@ -21,21 +21,26 @@
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 
     <link rel="stylesheet" href="./assets/css/custom.css?v=1.1">   
 
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
     <script defer src="./assets/js/script.js?v=1.1"></script>
+    
+    
     
 </head> 
 
 <body>
-    <a class="btn  theme-toggler  float-right" id="theme-switcher" title="Enable Dark Mode" target="_blank">        
+    <a data-aos="fade-right" data-aos-delay="400" class="btn  theme-toggler  float-right" id="theme-switcher" title="Enable Dark Mode" target="_blank">        
         <i id="toggler" class="fa fa-moon-o fa-lg"></i>
     </a>  
     <!-- ******HEADER****** --> 
-    <header class="header">
+    <header class="header" >
         <div class="container clearfix">                       
             <img class="profile-image img-fluid float-left rounded-circle" src="assets/images/profile.png" alt="profile image" />
             <div class="profile-content float-left">
@@ -57,7 +62,7 @@
     <div class="container sections-wrapper">
         <div class="row">
             <div class="primary col-lg-8 col-12">
-                <section class="about section">
+                <section class="about section" data-aos="fade-right" data-aos-delay="200">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
@@ -67,7 +72,7 @@
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
     
-               <section class="latest section">
+               <section class="latest section" data-aos="flip-left" data-aos-delay="200">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Latest Projects</h2>
                         <div class="content">    
@@ -94,7 +99,7 @@
                                
                             </div><!--//item-->
                             <hr class="divider" />
-                            <div class="item row">
+                            <div class="item row" data-aos="fade-right">
                                 <a class="col-md-4 col-12" href="https://github.com/anjalbinayak/equation-of-bisectors-finder" target="_blank">
                                 <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-1.png" alt="Equation Of Bisector Finder" />
                                 </a>
@@ -105,7 +110,7 @@
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             
-                            <div class="item row">
+                            <div class="item row"  data-aos="fade-left">
                                 <a class="col-md-4 col-12" href="https://www.youtube.com/watch?v=0fObVclO3Xs" target="_blank">
                                 <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/programmer-proposal.gif" alt="Programmers Proposal To Girlfriend" />
                                 </a>
@@ -116,7 +121,7 @@
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             
-                             <div class="item row">
+                             <div class="item row"   data-aos="fade-right">
                                 <a class="col-md-4 col-12" href="https://www.youtube.com/watch?v=KV8ZKmTDmps" target="_blank">
                                 <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/tryiteditor.gif" alt="Try it Editor" />
                                 </a>
@@ -127,7 +132,7 @@
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             
-                            <div class="item row">
+                            <div class="item row"  data-aos="fade-left">
                                 <a class="col-md-4 col-12" href="https://www.youtube.com/watch?v=8D308j41jfw" target="_blank">
                                 <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/messagingapp.png" alt="Messenger App" />
                                 </a>
@@ -137,7 +142,7 @@
                                     <p><a class="more-link" href="https://www.youtube.com/watch?v=8D308j41jfw" target="_blank"><i class="fa fa-external-link"></i> Watch</a></p>
                                 </div><!--//desc-->                          
                             </div><!--//item-->                            
-                            <div class="item row">
+                            <div class="item row"  data-aos="fade-right"> 
                                 <a class="col-md-4 col-12" href="https://www.youtube.com/watch?v=dNP81FWl0vE" target="_blank">
                                 <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/proposalform.png" alt="project name" />
                                 </a>
@@ -152,7 +157,7 @@
                     </div><!--//section-inner-->                
                 </section><!--//section-->
                 
-                <section class="projects section">
+                <section class="projects section" data-aos="fade-up-right">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Some Awesome Github's Project</h2>
                         <div class="content">
@@ -174,7 +179,7 @@
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
                 
-                <section class="experience section">
+                <section class="experience section" data-aos="zoom-in">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
@@ -189,7 +194,7 @@
               
             </div><!--//primary-->
             <div class="secondary col-lg-4 col-12">
-                 <aside class="info aside section">
+                 <aside class="info aside section" data-aos="fade-left">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
@@ -202,7 +207,7 @@
                     </div><!--//section-inner-->                 
                 </aside><!--//aside-->
                 
-                <aside class="skills aside section">
+                <aside class="skills aside section" data-aos="fade-up">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Skills</h2>
                         <div class="content">
@@ -266,7 +271,7 @@
                     </div><!--//section-inner-->                 
                 </aside><!--//section-->
                 
-                <aside class="testimonials aside section">
+                <aside class="testimonials aside section" data-aos="zoom-in-up">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Quote</h2>
                         <div class="content">
@@ -283,7 +288,7 @@
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                 
-                <aside class="education aside section">
+                <aside class="education aside section" data-aos="fade-left">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Education</h2>
                         <div class="content">
@@ -299,7 +304,7 @@
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                             
-                <aside class="languages aside section">
+                <aside class="languages aside section" data-aos="fade-up">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Languages</h2>
                         <div class="content">
@@ -322,7 +327,7 @@
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                 
-                <aside class="blog aside section">
+                <aside class="blog aside section" data-aos="fade-left">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Favourites Youtubers</h2>
                         <p>I love watching videos of these peoples </p>
@@ -395,7 +400,7 @@
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                 
-                <aside class="list music aside section">
+                <aside class="list music aside section" data-aos="fade-right">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Favourite coding music</h2>
                         <div class="content">
@@ -410,7 +415,7 @@
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                 
-                <aside class="list conferences aside section">
+                <aside class="list conferences aside section" data-aos="zoom-in">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Hobbies</h2>
                         <div class="content">
@@ -423,7 +428,7 @@
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                 
-                <aside class="credits aside section">
+                <aside class="credits aside section" data-aos="zoom-out">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Credits</h2>
                         <div class="content">

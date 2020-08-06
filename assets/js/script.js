@@ -1,5 +1,8 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     applyTheme();
+    AOS.init({
+        duration: 1000
+    });
 });
 
 
