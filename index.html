@@ -26,6 +26,7 @@
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 
     <link rel="stylesheet" href="./assets/css/custom.css?v=1.2">   
+    <link rel="stylesheet" href="./assets/css/contact.css?v=1.0">   
 
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
@@ -283,18 +284,18 @@
                 
                 <aside class="testimonials aside section" data-aos="zoom-in-up">
                     <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Quote</h2>
+                        <h2 class="heading">One Click Message</h2>
                         <div class="content">
-                            <!-- <div class="item">
-                                <blockquote class="quote">                                  
-                                    <p><i class="fa fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
-                                </blockquote>                
-                                <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>                                                              -->
-                           <!-- </div> //item-->
-                            
-                            <!-- <p><a class="more-link" href="#"><i class="fa fa-external-link-alt"></i>More on Linkedin</a></p>  -->
-                           Its what you do in the dark , that puts you in the light.
-                         </div>  <!-- //content -->
+                            <form class="contact-form" id="contact-form">
+                            <div id="contact-form-messages"></div>
+                           
+
+                           
+                          <input type="text" required id="contact-form-subject" placeholder="Subject" class="form-control"/>
+                          <textarea required placeholder="Message" id="contact-form-message" class="form-control"></textarea>
+                          <a class="btn btn-warning btn-sm" id="contact-form-send" href="mailto:anjaladhikari3@outlook.com">Send Message</a>
+                            </form> 
+                        </div>  <!-- //content -->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                 
@@ -464,6 +465,7 @@
 
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>            
+    <script type="text/javascript" src="assets/js/contact.js"></script>            
 </body>
 </html> 
 
